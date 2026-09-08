@@ -127,3 +127,39 @@ Next-Day-PM25-Prediction/
 ├── Technical_Report.pdf
 ├── README.md
 └── images/
+▶️ How to Run
+1. Clone the repository
+git clone <YOUR_GITHUB_REPOSITORY_URL>
+cd Next-Day-PM25-Prediction
+2. Install dependencies
+pip install pandas numpy matplotlib seaborn scikit-learn jupyter
+3. Download the dataset
+
+Download the dataset from Kaggle:
+
+https://www.kaggle.com/datasets/riteshswami08/india-multi-city-air-quality-dataset-100k-rows
+
+Place the CSV file in the project directory.
+
+4. Run the notebook
+jupyter notebook
+
+Open AIMLInternship_code.ipynb and run the cells sequentially.
+
+⚠️ Limitations
+Weather variables were not included.
+Some pollutant values required missing-value handling.
+Pollution patterns can vary across cities and locations.
+The target represents the next available observation in a city/location sequence and may not always be exactly 24 hours later when dates are missing.
+🚀 Future Improvements
+Add weather information such as temperature, humidity and wind speed
+Try XGBoost or Gradient Boosting
+Perform hyperparameter tuning
+Explore advanced time-series models
+Build a Streamlit dashboard
+Add SHAP-based model explainability
+👩‍💻 Author
+
+Siddhi Kakade
+
+Computer Engineering | AI/ML | Data Science
