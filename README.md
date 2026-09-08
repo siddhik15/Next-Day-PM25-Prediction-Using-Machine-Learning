@@ -127,7 +127,7 @@ Next-Day-PM25-Prediction/
 ├── Technical_Report.pdf
 ├── README.md
 └── images/
-▶️ How to Run
+##▶️ How to Run
 1. Clone the repository
 git clone <YOUR_GITHUB_REPOSITORY_URL>
 cd Next-Day-PM25-Prediction
@@ -144,21 +144,22 @@ Place the CSV file in the project directory.
 4. Run the notebook
 jupyter notebook
 
-Open AIMLInternship_code.ipynb and run the cells sequentially.
+Open .ipynb and run the cells sequentially.
 
-⚠️ Limitations
+##⚠️ Limitations
 Weather variables were not included.
 Some pollutant values required missing-value handling.
 Pollution patterns can vary across cities and locations.
 The target represents the next available observation in a city/location sequence and may not always be exactly 24 hours later when dates are missing.
-🚀 Future Improvements
+
+##🚀 Future Improvements
 Add weather information such as temperature, humidity and wind speed
 Try XGBoost or Gradient Boosting
 Perform hyperparameter tuning
 Explore advanced time-series models
 Build a Streamlit dashboard
 Add SHAP-based model explainability
-👩‍💻 Author
+#👩‍💻 Author
 
 Siddhi Kakade
 
