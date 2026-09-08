@@ -244,16 +244,6 @@ Current PM2.5 was the dominant feature, showing that recent pollution concentrat
 
 ---
 
-## ⚠️ Limitations
-
-- Weather variables were not included.
-- Some pollutant values required missing-value handling.
-- Pollution patterns can vary significantly across cities and locations.
-- The target represents the next available observation in a city/location sequence and may not always correspond to exactly 24 hours later.
-- The model may perform differently for different cities and monitoring locations.
-
----
-
 ## 🚀 Future Improvements
 
 Possible improvements include:
@@ -297,19 +287,6 @@ Open:
 `.ipynb`
 
 Run the notebook cells sequentially.
-
----
-
-## 📦 Dependencies
-
-- Python 3.x
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-learn
-- Jupyter Notebook
-
 
 ---
 
